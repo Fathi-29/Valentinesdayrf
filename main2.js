@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", function () {
   let counter = 0;
   
   function no() {
-      if (counter >= 4) {
+      if (counter >= 0) {
     alert("Okay okay, I’ll stop 😌");
     return;
   }
