@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", function () {
   let counter = 0;
   
   function no() {
-      if (counter >= 0) {
+      if (counter >= 4) {
     alert("Okay okay, I’ll stop 😌");
     return;
   }
@@ -91,7 +91,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
   
   function yes() {
-    if (counter >= 3) {
+    if (counter >= 2) {
         let model = document.getElementById("model2");
         let model2 = document.getElementById("model");
         let sadMusic = document.getElementById("sadMusic");
